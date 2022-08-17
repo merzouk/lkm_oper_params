@@ -30,11 +30,19 @@ module_param(b, int, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH);
 MODULE_PARM_DESC(a, "An integer");
 MODULE_PARM_DESC(b, "An integer");
 
+/*
+ * 
+ *
+ */
 static void begin(void)
 {
     pr_info("Begin run program \n");
 }
 
+/*
+ * 
+ *
+ */
 static void end(void)
 {
     pr_info("End run program \n");
@@ -49,6 +57,10 @@ static int sum(int a, int b)
     return a+b;
 }
 
+/*
+ * 
+ *
+ */
 static int prod(int a, int b)
 {
     return a*b;
