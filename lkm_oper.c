@@ -82,3 +82,6 @@ void cleanup_module(void)
 }
 
 MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Mrzk");
+MODULE_DESCRIPTION("A simple code LKM!"); 
+MODULE_VERSION("0.1");
