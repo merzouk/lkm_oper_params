@@ -1,7 +1,6 @@
 # linux-kernel-module
 
-Simple example of Linux Kernel Modules.
-
+Simple examples of Linux Kernel Modules.
 
 ### Building the Module
 make
@@ -13,6 +12,7 @@ make clean
 
 ### Installing / Uninstalling
 
+```sh
 # Install without parameters :
 sudo insmod lkm_oper.ko
 
