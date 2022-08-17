@@ -18,6 +18,8 @@ sudo insmod lkm_oper.ko
 
 # Install with parameters:
 sudo insmod lkm_oper.ko a=11 b=15
+sudo insmod lkm_oper.ko a=11
+sudo insmod lkm_oper.ko b=15
 
 # view output of executed program :
 dmesg
