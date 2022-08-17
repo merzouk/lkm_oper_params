@@ -1,6 +1,6 @@
 # linux-kernel-module
 
-Simple examples of Linux Kernel Modules.
+Simple example of Linux Kernel Modules.
 
 ### Building the Module
 make
