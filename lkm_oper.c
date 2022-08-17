@@ -4,7 +4,7 @@
 
 #include <linux/kernel.h>      /* for pr_info() */
 #include <linux/module.h>      /* all modules */
-#include <linux/init.h>        /*initialisation */
+#include <linux/init.h>        /* macros */
 #include <linux/moduleparam.h> /* using params */
 #include <linux/stat.h>
 
