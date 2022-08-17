@@ -20,7 +20,7 @@ sudo insmod lkm_oper.ko
 sudo insmod lkm_oper.ko a=11 b=15
 
 # view output of executed program :
-sudo insmod lkm_oper.ko a=11 b=15
+dmesg
 
 # Uninstall
 sudo rmmod lkm_oper
