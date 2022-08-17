@@ -2,7 +2,6 @@
 
 Simple example of Linux Kernel Modules.
 
-```sh
 
 ### Building the Module
 make
