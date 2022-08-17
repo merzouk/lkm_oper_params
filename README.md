@@ -2,6 +2,8 @@
 
 Simple example of Linux Kernel Modules.
 
+```sh
+
 ### Building the Module
 make
 
@@ -10,9 +12,10 @@ The module is compiled to `lkm_oper.ko`.
 ### clean the Module
 make clean
 
+```sh
 ### Installing / Uninstalling
 
-```sh
+
 # Install without parameters :
 sudo insmod lkm_oper.ko
 
